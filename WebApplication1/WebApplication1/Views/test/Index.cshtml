@@ -22,19 +22,51 @@
         </div>
         <div class="menu">
             <ul>
-                <li>@Html.ActionLink("Trang chủ","HomePage","test")</li>
-                <li>@Html.ActionLink("Giới thiệu","Intro","test")</li>
-                <li>TOUR TRONG NƯỚC</li>
-                <li>TOUR NƯỚC NGOÀI</li>
-                <li>TIN HOT</li>
-                <li>ĐẶT PHÒNG</li>
-                <li>VISA</li>
-                <li>LỊCH TOUR</li>
+                <li>@Html.ActionLink("TRANG CHỦ","HomePage","test")</li>
+                <li>@Html.ActionLink("GIỚI THIỆU","Intro","test")</li>
+                <li>@Html.ActionLink("TOUR TRONG NƯỚC", "tourTrongNuoc", "tour")</li>
+                <li>@Html.ActionLink("TOUR TRONG NƯỚC", "tourTrongNuoc", "tour")</li>
+                <li>@Html.ActionLink("TOUR TRONG NƯỚC", "tourTrongNuoc", "tour")</li>
+                <li>@Html.ActionLink("TOUR TRONG NƯỚC", "tourTrongNuoc", "tour")</li>
+                <li>@Html.ActionLink("TOUR TRONG NƯỚC", "tourTrongNuoc", "tour")</li>
+                <li>@Html.ActionLink("TOUR TRONG NƯỚC", "tourTrongNuoc", "tour")</li>
                 <li>@Html.ActionLink("LIÊN HỆ","Contact","test")</li>
             </ul>
         </div>
         <div class="content">
             @RenderBody()
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+                <p><strong style="font-size:25px">GÓC KHÁCH HÀNG</strong></p>
+                Giới thiệu<br />
+                Giấy phép lữ hành<br />
+                Liên hệ<br />
+                <p>Công ty cổ phần đầu từ du lịch Hoàng Việt</p>
+                Mã số thuế/ Số QĐ thành lập: 0101594871<br />
+                Trụ sở ĐKKD: Số 62, Trần Quốc Toản, P. Trần Hưng Đạo, Q. Hoàn Kiếm, Hà Nội<br />
+                Điện thoại: 0243 719 2328 - Hotline: 0983 968 365 - Email: thangthomas@hoangviettravel.vn<br />
+            </div>
+            <div class="footer-center">
+                TIN TỨC<br />
+                Bản tin du lịch trong nước<br />
+                Bản tin du lịch nước ngoài<br />
+                <br />
+                Văn Phòng Đà Nẵng<br />
+                Nguyễn Thị Minh Khai, Q.Hải Châu, TP Đà Nẵng<br />
+                Điện thoại: 0326111435<br />
+            </div>
+            <div class="footer-right">
+                CƠ SỞ KINH DOANH<br />
+                <br />
+                Cơ Sở Yên Phụ : Tầng 3+4, 62A phố Yên Phụ (Yên Phụ nhỏ), quận Tây Hồ, Hà Nội<br />
+                <br />
+                Điện thoại:  024 - 3824 7555<br />
+                <br />
+                Cơ Sở Hồng Hà : 93 Hồng Hà, Ba Đình , Hà Nội<br />
+                <br />
+                Điện thoại : 024 - 37194188<br />
+            </div>
         </div>
     </div>
 </body>

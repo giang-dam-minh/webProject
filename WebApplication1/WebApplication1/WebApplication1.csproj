@@ -199,6 +199,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\testController.cs" />
+    <Compile Include="Controllers\TourController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -212,10 +213,17 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Contact\Contact.css" />
+    <Content Include="Content\homePage\homePage.css" />
     <Content Include="Content\image\banner.jpg" />
     <Content Include="Content\image\giayphepmatsau.jpg" />
     <Content Include="Content\image\giay_phep_0.jpg" />
     <Content Include="Content\image\logo.png" />
+    <Content Include="Content\image\slide\btn-firstpage.svg" />
+    <Content Include="Content\image\slide\btn-lastpage.svg" />
+    <Content Include="Content\image\slide\tet_con_dao-01.jpg" />
+    <Content Include="Content\image\slide\tet_ha_giang-01.jpg" />
+    <Content Include="Content\image\slide\tet_phu_quoc-01.jpg" />
+    <Content Include="Content\image\slide\tet_qn_py-01.jpg" />
     <Content Include="Content\image\sodo.jpg" />
     <Content Include="Content\image\tải xuống.png" />
     <Content Include="Content\introAnh\anh1.jpg" />
@@ -227,6 +235,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="js\slide.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -284,9 +293,11 @@
     <Content Include="Views\test\Intro.cshtml" />
     <Content Include="Views\test\HomePage.cshtml" />
     <Content Include="Views\test\Contact.cshtml" />
+    <Content Include="Views\Tour\tourTrongNuoc.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="lib\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
