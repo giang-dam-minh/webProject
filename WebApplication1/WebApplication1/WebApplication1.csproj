@@ -214,6 +214,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Contact\Contact.css" />
     <Content Include="Content\homePage\homePage.css" />
+    <Content Include="Content\image\bangkhen\4_0.jpg" />
+    <Content Include="Content\image\bangkhen\anh_3.jpg" />
+    <Content Include="Content\image\bangkhen\cup_0.png" />
+    <Content Include="Content\image\bangkhen\cup_5.jpg" />
+    <Content Include="Content\image\bangkhen\qr.jpg" />
+    <Content Include="Content\image\bangkhen\san_pham_dich_vu_xuat_sac.jpg" />
+    <Content Include="Content\image\bangkhen\unesco1 %281%29.jpg" />
+    <Content Include="Content\image\bangkhen\unesco1.jpg" />
     <Content Include="Content\image\banner.jpg" />
     <Content Include="Content\image\giayphepmatsau.jpg" />
     <Content Include="Content\image\giay_phep_0.jpg" />
@@ -231,6 +239,8 @@
     <Content Include="Content\introAnh\anh3.jpg" />
     <Content Include="Content\intro\intro.css" />
     <Content Include="Content\test.css" />
+    <Content Include="Content\tour\anh-tour\1.jpg" />
+    <Content Include="Content\tour\tour-trong-nuoc.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

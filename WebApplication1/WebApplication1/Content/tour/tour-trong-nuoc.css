@@ -1,0 +1,44 @@
+﻿.list-tour-content{
+    margin-left:500px;
+}
+.list-tour{
+    display:flex;
+    justify-content:space-between;
+    height:210px;
+    width:600px;
+    margin:5px;
+    border:1px solid #333333;
+    float:left;
+}
+.list-tour .left{
+    padding:5px;
+    
+}
+.list-tour .right{
+  
+    padding:5px;
+}
+.list-tour .right button{
+    height:30px;
+    width:98%;
+    border:0px;
+    background:#e27a1a;
+}
+.list-tour .right .tg{
+    background-color: #e7e7e7;
+    border: 1px solid #ddd;
+    color: #555;
+    padding: 5px 10px;
+}
+.list-tour .right .time{
+   background-color: #555;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 5px 10px;
+}
+.list-tour .right .tgkh{
+    margin-top:10px;
+}
+.clear{
+    clear:both;
+}
