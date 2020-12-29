@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "lichTour";
+    Layout = "~/Views/test/Index.cshtml";
+}
+<head>
+    <link href="~/Content/tour/lich-tour.css" rel="stylesheet" />
+</head>
+<p style="color:red; text-align:center; font-size:20px;">LỊCH TOUR KHỞI HÀNH</p>
+<div class="lich-tour-header"><span>Kính gửi Quý khách hàng,</span><br />
+<span>Nhân dịp kỷ niệm 16 năm ngày thành lập công ty, HoangViet Travel xin gửi đến Quý khách hàng lịch khởi hành 2020 với gần 100 chương trình du lịch Nội địa định kỳ cùng mức giá/ngày khởi hành/số lượng chỗ còn nhận được cập nhật liên tục 2 lần/ngày</span>
+<span style="color:red;">(để xem chi tiết chương trình, số điện thoại người phụ trách trực tiếp, chính sách bao gồm, không bao gồm, mức giá đối với trẻ em..v.v...Vui lòng bấm vào tên của từng chương trình!</span></div>
+<div class="lich-tour-content">
+    <table>
+        <thead>
+            <tr>
+                <th>TOUR</th>
+                <th>KHỞI HÀNH</th>
+                <th>THÒI GIAN</th>
+                <th>GIÁ BÁN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.ActionLink("Hà Nội-Sapa", "tourDetail", "tour")</td>
+                <td>1/1/2021</td>
+                <td>3N2D</td>
+                <td>2.000.000</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("Hà Nội-Sapa", "tourDetail", "tour")</td>
+                <td>1/1/2021</td>
+                <td>3N2D</td>
+                <td>2.000.000</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("Hà Nội-Sapa", "tourDetail", "tour")</td>
+                <td>1/1/2021</td>
+                <td>3N2D</td>
+                <td>2.000.000</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("Hà Nội-Sapa", "tourDetail", "tour")</td>
+                <td>1/1/2021</td>
+                <td>3N2D</td>
+                <td>2.000.000</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

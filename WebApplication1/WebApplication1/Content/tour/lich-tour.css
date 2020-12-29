@@ -1,0 +1,16 @@
+﻿.lich-tour-header{
+    width:1000px;
+    margin:5px auto 5px auto;
+    font-size:18px;
+}
+.lich-tour-content table{
+    border:1px solid #BBBBBB;
+    margin-left:auto;
+    margin-right:auto;
+}
+.lich-tour-content table th{
+    background-color:rgb(146, 208, 80);
+}
+.lich-tour-content table td,th{
+    padding:15px 82px;
+}

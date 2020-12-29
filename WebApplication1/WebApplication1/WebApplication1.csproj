@@ -240,6 +240,7 @@
     <Content Include="Content\intro\intro.css" />
     <Content Include="Content\test.css" />
     <Content Include="Content\tour\anh-tour\1.jpg" />
+    <Content Include="Content\tour\lich-tour.css" />
     <Content Include="Content\tour\tour-trong-nuoc.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -304,6 +305,7 @@
     <Content Include="Views\test\HomePage.cshtml" />
     <Content Include="Views\test\Contact.cshtml" />
     <Content Include="Views\Tour\tourTrongNuoc.cshtml" />
+    <Content Include="Views\Tour\lichTour.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
