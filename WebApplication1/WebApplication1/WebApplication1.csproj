@@ -226,6 +226,7 @@
     <Content Include="Content\image\giayphepmatsau.jpg" />
     <Content Include="Content\image\giay_phep_0.jpg" />
     <Content Include="Content\image\logo.png" />
+    <Content Include="Content\image\search.png" />
     <Content Include="Content\image\slide\btn-firstpage.svg" />
     <Content Include="Content\image\slide\btn-lastpage.svg" />
     <Content Include="Content\image\slide\tet_con_dao-01.jpg" />

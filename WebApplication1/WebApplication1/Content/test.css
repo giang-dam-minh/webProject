@@ -113,3 +113,48 @@ li{
   padding:20px;
   
 }
+.formSearch{
+    left:20px;
+    bottom:166px;
+    height:420px;
+    width:320px;
+    background-color: rgba(92,160,56,0.9);
+    position:absolute;
+}
+.formSearch .formSearch-content{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    height:85%;
+    margin-top:35px;
+    background-color: rgba(172,215,249,0.95);
+    padding:10px;
+}
+.formSearch .formSearch-content .loai-tour{
+    display:flex;
+    justify-content:space-between;
+    margin-left:10px;
+    height:60px;
+    width:calc(100% - 20px);
+}
+.formSearch select{
+    height:40px;
+    width:166px;
+    border-radius:5px;
+    border:0;
+    outline:none;
+}
+    .formSearch button {
+        height: 40px;
+        width: 100px;
+        color:white;
+        background-color: #e27a1a;
+        border-radius: 5px;
+        border: 0;
+        outline: none;
+    }
+.formSearch button:hover{
+    cursor:pointer;
+    height:42px;
+    width:102px;
+}
