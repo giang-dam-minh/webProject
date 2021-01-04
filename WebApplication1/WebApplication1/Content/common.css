@@ -1,3 +1,15 @@
 ﻿button:hover{
     cursor:pointer;
 }
+.clear{
+    clear:both;
+}
+.maucam{
+    color:#e27a1a;
+}
+.mauxanh{
+    color:#0000FF;
+}
+input, button{
+    outline:none;
+}

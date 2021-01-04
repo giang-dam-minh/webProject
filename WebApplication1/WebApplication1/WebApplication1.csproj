@@ -243,10 +243,12 @@
     <Content Include="Content\test.css" />
     <Content Include="Content\tour\anh-tour\1.jpg" />
     <Content Include="Content\tour\anh-tour\2.jpg" />
+    <Content Include="Content\tour\anh-tour\3.jpg" />
     <Content Include="Content\tour\anh-tour\sale - Copy.png" />
     <Content Include="Content\tour\lich-tour.css" />
     <Content Include="Content\tour\timTour.css" />
     <Content Include="Content\tour\tour-trong-nuoc.css" />
+    <Content Include="Content\tour\tourDetail.css" />
     <Content Include="Content\x.svg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -315,6 +317,7 @@
     <Content Include="Views\Tour\tourTrongNuoc.cshtml" />
     <Content Include="Views\Tour\lichTour.cshtml" />
     <Content Include="Views\Tour\timTour.cshtml" />
+    <Content Include="Views\Tour\tourDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
