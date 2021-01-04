@@ -27,7 +27,6 @@ var changeImg = function (stt) {
 
 $("button").click(function () {
     stt = $(this).attr("idx");
-
     changeImg(stt);
 });
 
@@ -35,7 +34,6 @@ $("#next").click(function () {
     if (++stt > endImg) {
         stt = 0;
     }
-
     changeImg(stt);
 });
 
@@ -43,10 +41,9 @@ $("#prev").click(function () {
     if (--stt < 0) {
         stt = endImg;
     }
-
     changeImg(stt);
 });
-etInterval(function () {
+setInterval(function () {
     $("#next").click();
 }, 5000);
 $("img.slide").eq(stt).show();

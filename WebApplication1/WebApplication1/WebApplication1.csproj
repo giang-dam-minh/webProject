@@ -212,6 +212,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\common.css" />
     <Content Include="Content\Contact\Contact.css" />
     <Content Include="Content\homePage\homePage.css" />
     <Content Include="Content\image\bangkhen\4_0.jpg" />
@@ -241,13 +242,19 @@
     <Content Include="Content\intro\intro.css" />
     <Content Include="Content\test.css" />
     <Content Include="Content\tour\anh-tour\1.jpg" />
+    <Content Include="Content\tour\anh-tour\2.jpg" />
+    <Content Include="Content\tour\anh-tour\sale - Copy.png" />
     <Content Include="Content\tour\lich-tour.css" />
+    <Content Include="Content\tour\timTour.css" />
     <Content Include="Content\tour\tour-trong-nuoc.css" />
+    <Content Include="Content\x.svg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="js\dialog.js" />
     <Content Include="js\slide.js" />
+    <Content Include="lib\jquery-3.5.1.min.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -307,10 +314,10 @@
     <Content Include="Views\test\Contact.cshtml" />
     <Content Include="Views\Tour\tourTrongNuoc.cshtml" />
     <Content Include="Views\Tour\lichTour.cshtml" />
+    <Content Include="Views\Tour\timTour.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="lib\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

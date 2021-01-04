@@ -8,6 +8,14 @@
 a{
     text-decoration:none;
 }
+
+a:visited{
+    color:white;
+}
+a:hover{
+    color:red;
+}
+
 .header{
     width:100%;
     height:35px;
@@ -60,18 +68,22 @@ a{
 }
 .menu ul li{
     text-decoration:none;
-    display:inline-table;
-    height:100%;
+    /*display:inline-table;*/
+    float:left;
+    height:40%;
     position:relative;
     background-color:orange;
     border-left:1px solid white;
-    padding-top:15px;
-    padding-left:5px;
+    padding:15px;
     color:white;
 }
 .menu ul li:hover{
     color:red;
     cursor:pointer;
+    background-color:#ffffff;
+}
+.menu ul li:hover a{
+    color:red;
 }
 li{
     list-style:none;
@@ -114,19 +126,20 @@ li{
   
 }
 .formSearch{
-    left:20px;
+    left:34px;
     bottom:166px;
     height:420px;
     width:320px;
     background-color: rgba(92,160,56,0.9);
     position:absolute;
+    position:fixed;
 }
 .formSearch .formSearch-content{
     width:90%;
     margin-left: auto;
     margin-right: auto;
     height:85%;
-    margin-top:35px;
+    margin-top:20px;
     background-color: rgba(172,215,249,0.95);
     padding:10px;
 }
@@ -158,3 +171,82 @@ li{
     height:42px;
     width:102px;
 }
+#formSearch-header{
+    padding:5px;
+    color:white;
+}
+.dialog{
+    display:none;
+}
+.dialog .dialog-model{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:black;
+    z-index:999;
+    opacity:0.7;
+}
+.dialog .dialog-content{
+    border-radius:5px;
+    position:absolute;
+    width:560px;
+    height:400px;
+    background-color:#ffffff;
+    z-index:1000;
+    top:calc(50% - 250px);
+    left:calc(50% - 250px);
+}
+.dialog .dialog-content .dialog-content-header{
+    background-color:orange;
+    height:60px;
+    width:97.4%;
+    padding-top:15px;
+    padding-left:15px;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+    .dialog .dialog-content .dialog-content-header button {
+        height: 30px;
+        width: 30px;
+        margin-top:-15px;
+        border-top-right-radius:5px;
+        background-image: url('x.svg');
+        background-repeat:no-repeat;
+        background-size:contain;
+        border:none;
+        outline:none;
+    }
+.dialog .dialog-content .dialog-content-main{
+    background-color:white;
+    height:calc(100% - 60px);
+    margin-top:20px;
+    width:100%;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.noidung{
+    height:130px;
+}
+.dialog .dialog-content .dialog-content-main input{
+    width:90%;
+    padding:10px;
+    margin:10px 20px;
+    outline:none;
+}
+.dialog .dialog-content .dialog-content-main button{
+    padding:10px 15px;
+    background-color:#3f51b5;
+    border:0;
+    color:white;
+    border-radius:5px;
+    outline:none;
+    margin-left:20px;
+}
+
+
+

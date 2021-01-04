@@ -34,8 +34,10 @@ img.slide:not(:first-child) {
     text-align: center;
     margin-top: 1rem;
 }
-
-button {
+#prev, #next:hover{
+    cursor:pointer;
+}
+/*button {
     background: rgb(0, 153, 255);
     width: 30px;
     height: 30px;
@@ -43,9 +45,41 @@ button {
     margin-right: 20px;
     font-weight: bold;
     border: none;
-}
+}*/
 
 button.active {
     background: rgb(7, 101, 163);
     color: white;
+}
+.sale-header{
+    margin-left:20px;
+    align-items:center;
+    display:flex;
+}
+.sale-tour-trong-nuoc{
+    height:auto;
+    width:95%;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.sale-tour-trong-nuoc .content {
+   height:300px;
+   width:575px;
+   background-color:red;
+   margin:5px 10px;
+   background-image:url(../tour/anh-tour/2.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   float:left;
+}
+.sale-tour-trong-nuoc .content .detail-content{
+    color:white;
+    margin-top:226px;
+    background-color: rgba(92,160,56,0.6);
+    opacity:1;
+    padding:10px;
+}
+.clear{
+    clear:both;
 }

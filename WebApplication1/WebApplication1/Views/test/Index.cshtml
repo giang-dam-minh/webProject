@@ -9,6 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link href="~/Content/common.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="~/Content/test.css" />
 </head>
 <body>
@@ -35,43 +36,44 @@
         </div>
         <div class="content">
             @RenderBody()
-            <div class="formSearch">
-                Tìm Tour
-                <div class="formSearch-content">
-                    <div class="loai-tour">
-                        Loại tour
-                        <select>
-                            <option>Tour trong nước</option>
-                        </select>
-                    </div>
-                    <div class="loai-tour">
-                        Điểm khởi hành
-                        <select>
-                            <option>Tour trong nước</option>
-                        </select>
-                    </div>
-                    <div class="loai-tour">
-                        Điểm đến
-                        <select>
-                            <option>Tour trong nước</option>
-                        </select>
-                    </div>
-                    <div class="loai-tour">
-                        Ngày khời hành
-                        <select>
-                            <option>Tour trong nước</option>
-                        </select>
-                    </div>
-                    <div class="loai-tour">
-                        Giá tour
-                        <select>
-                            <option>Tour trong nước</option>
-                        </select>
-                    </div>
-                    <button >Tìm kiếm</button>
+            <form method="get" action="/tour/timTour">
+                <div class="formSearch">
+                    <span id="formSearch-header">Tìm Tour</span>
+                    <div class="formSearch-content">
+                        <div class="loai-tour">
+                            Loại tour
+                            <select>
+                                <option>Tour trong nước</option>
+                            </select>
+                        </div>
+                        <div class="loai-tour">
+                            Điểm khởi hành
+                            <select>
+                                <option>Tour trong nước</option>
+                            </select>
+                        </div>
+                        <div class="loai-tour">
+                            Điểm đến
+                            <select>
+                                <option>Tour trong nước</option>
+                            </select>
+                        </div>
+                        <div class="loai-tour">
+                            Ngày khời hành
+                            <select>
+                                <option>Tour trong nước</option>
+                            </select>
+                        </div>
+                        <div class="loai-tour">
+                            Giá tour
+                            <select>
+                                <option>Tour trong nước</option>
+                            </select>
+                        </div>
+                        <button type="submit" >Tìm kiếm</button>
+                    </div>  
                 </div>
-                
-            </div>
+            </form>
           
         </div>
         <div class="bangKhen">
@@ -117,6 +119,23 @@
                 Điện thoại : 024 - 37194188<br />
             </div>
         </div>
+        <div class="dialog">
+            <div class="dialog-model"></div>
+            <div class="dialog-content">
+                <div class="dialog-content-header">
+                    ĐĂNG KÝ TOUR
+                    <button class="dong"></button>
+                </div>
+               <div class="dialog-content-main">
+                   <input type="text" placeholder="Họ và tên" /><br />
+                   <input type="text" placeholder="Điện thoại" /><br />
+                   <input class="noidung" type="text" placeholder="Nội dung" /><br />
+                   <button>Gửi yêu cầu</button>
+               </div>
+            </div>
+        </div>
     </div>
+    <script src="~/lib/jquery-3.5.1.min.js"></script>
+    <script src="~/js/dialog.js"></script>
 </body>
 </html>

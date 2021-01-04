@@ -1,0 +1,29 @@
+﻿.timTour-content{
+    margin-left:400px;
+}
+.timTour-content table thead{
+    background-color:#3f51b5;
+}
+.timTour-content table th{
+    border-left:1px solid white;
+    color:white;
+}
+.timTour-content table th,td{
+    border-bottom:1px solid #BBBBBB;
+    text-align:left;
+    padding:15px 5px;
+}
+.timTour-content table button{
+    border:0;
+    background-color:#3f51b5;
+    color:white;
+    outline:none;
+    padding:5px 15px;
+}
+.timTour-content table button:hover{
+    cursor:pointer;
+    background-color:#3F51CB;
+}
+.maucam{
+    color:#e27a1a;
+}
